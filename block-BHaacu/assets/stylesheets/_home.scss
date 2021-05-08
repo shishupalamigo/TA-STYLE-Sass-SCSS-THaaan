@@ -90,9 +90,10 @@
 //   HERO SECTION
 
   .hero {
-    background: url("../media/banner-1.jpg") 50% 50% no-repeat;
+    background: url("../media/banner-1.jpg") no-repeat;
     background-size: cover;
-    height: 90vh;
+    background-position: center;
+    padding: 2rem 0;
     margin-bottom: 3rem;
 }
 .hero-content {
@@ -101,7 +102,7 @@
         color: $secondary;
         font-weight: 900;
         text-transform: uppercase;   
-        margin-bottom: 1em;
+        margin-bottom: .5em;
     }
     p {
         color: $secondary;
@@ -111,7 +112,6 @@
 /* OUR SERVICES */
 
 .services-content {
-    width: 30%;
     text-align: center;
     border: 1px solid rgb(189, 188, 188);
     border-radius: 12px;
@@ -179,7 +179,7 @@
   background: rgb(248,249,250);
 }
 .slide {
-  height: 5rem;
+  height: 8rem;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -189,7 +189,6 @@
   display: none;
 }
 .client-img {
-  width: 9rem;
   margin: 0 2rem;
 }
 .client-img img {
